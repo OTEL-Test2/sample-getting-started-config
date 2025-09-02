@@ -38,13 +38,13 @@ app:
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
 
-  # observability:
-  #   cloudwatch:
-  #     arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount2
-  #     logGroup: myLogGroup9999
-  #     region: us-east-1
+  observability:
+     cloudwatch:
+       arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount2
+       logGroup: myLogGroup9999
+       region: us-east-1
 
-  version: "a4675775-9136-492b-aa11-66a3b062dd39"
+  version: "310c7f02-3f4a-473d-b4b5-7fddd3b7958b"
 # probes
 # dynamic scaling
 # scaling to 0
