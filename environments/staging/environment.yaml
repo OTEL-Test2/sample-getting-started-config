@@ -72,9 +72,9 @@ app:
   # can change and might not be unique. 
   # services:
   #   - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef
-  # observability:
-  #   cloudwatch:
-  #     arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount2
-  #     logGroup: myLogGroup9999
-  #     region: us-east-1
+  observability:
+    cloudwatch:
+      arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount2
+      logGroup: myLogGroup9999
+      region: us-east-1
       #  type: db2
