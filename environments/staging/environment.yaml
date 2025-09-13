@@ -75,6 +75,6 @@ app:
   observability:
     cloudwatch:
       arn: arn:aws:iam::282782922504:role/MCSP_T_G_SSRE_easej_serviceRole_clodwatchCrossAccount2
-      logGroup: myLogGroup9999
+      logGroup: myLogGroup9998
       region: us-east-1
       #  type: db2
